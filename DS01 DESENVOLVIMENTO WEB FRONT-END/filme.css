@@ -1,0 +1,82 @@
+body {
+    background-color: #151515;
+    color:white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.card {
+    background-color: #252525;
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #444444;
+    border-radius: 15px;
+}
+
+h1 {
+    color:#e10600;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #e10600;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.subtitulo {
+    color: #cccccc;
+    font-size: 20px;
+    margin-bottom:25px;
+}
+
+img {
+    width: 350px;
+    margin: 0 auto;
+    border: 3px solid #e10600;
+    border-radius: 10px;
+}
+
+.sinopse {
+    width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    line-height: 1.6;
+}
+
+.elenco {
+    width: 400px;
+    margin: 0 auto 30px auto;
+    padding: 15px;
+    text-align: left;
+}
+
+.elenco li {
+    margin: 10px;
+}
+
+.botao {
+    margin-top: 35px;
+}
+
+.botaotrailer {
+    display: inline-block;
+    background-color: #e10600;
+    color: white;
+    font-size: 18px;
+    margin: 15px;
+    padding: 15px 30px;
+    border: 2px solid #ff3b30;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.botaotrailer:hover {
+    background-color: #ff3b30;
+    color: black;
+}
